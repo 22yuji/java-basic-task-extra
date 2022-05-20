@@ -21,7 +21,7 @@ String stock = "";
     </div>
   </form>
   <% if (!stock.isEmpty()) { %>
-    <p>現在のストック：<%= stock %></p>
+    <p>現在のストック：<%= stock %></p><br>
   <% } %>
 </div>
 </body>
